@@ -1,0 +1,48 @@
+.shengbei{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header,
+footer {
+flex: 1;
+}
+.toubj{
+	background-color: #B22222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+.touwz{
+	background-color: #FF6347;
+	font-size: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+.shengbei-body{
+	display: flex;
+	flex: 1;
+}
+.shengbei-content {
+  flex: 1;
+  background-color: #FFF5EE;
+}
+
+.shengbei-nav {
+  /* 两个边栏的宽度设为12em */
+  flex: 0 0 18em;
+   /* 导航放到最左边 */
+  order: -1;
+  background-color: #FFE4B5;
+}
+.shengbei-ads {
+  /* 两个边栏的宽度设为12em */
+  flex: 0 0 12em;
+  background-color: #F4A460;
+}
+.daohang{
+	display: flex;
+	flex-direction: column;
+}
+
